@@ -1,6 +1,6 @@
 {
     "name" : "bundler",
-    "description" : "Bundler. It is better for you don't know what is it.",
+    "description" : "Bundler. It is better for you to not know what it is.",
     "version" : "0.0.0",
     "homepage" : "http://localhost/",
     "author" : {
