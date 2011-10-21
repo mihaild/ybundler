@@ -1,19 +1,23 @@
 {
     "name" : "bundler",
     "description" : "Bundler. It is better for you to not know what it is.",
-    "version" : "0.0.0",
-    "homepage" : "http://localhost/",
+    "version" : "0.8",
+    "homepage" : "https://github.com/mihaild/ybundler",
     "author" : {
-		"name": "Mikhail Dektyarev",
-		"email" : "root@localhost",
-		"web" : "http://localhost/"
-	},
-	"maintainers" : [
-	],
-	"directories" : { "lib" : "./lib", "bin": "./bin" },
-	"main" : "./lib/bundler.js",
-	"bin" : { "bundler" : "./bin/bundler" },
+        "name": "Mikhail Dektyarev",
+        "email" : "mihail.dektyarow@gmail.com",
+        "web" : "https://github.com/mihaild/"
+    },
+    "maintainers" : [
+    ],
+    "directories" : { "lib" : "./lib", "bin": "./bin" },
+    "main" : "./lib/bundler.js",
+    "bin" : { "bundler" : "./bin/bundler" },
     "dependencies" : {
+        "coa": ">= 0.1.1"
+    },
+    "devDependencies" : {
+        "vows": ">= 0.0.0"
     },
     "engines" : [ "node ~0.4.0" ],
     "licenses" : [ { "type" : "AS IS" } ]
