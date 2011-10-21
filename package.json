@@ -1,7 +1,7 @@
 {
     "name" : "bundler",
     "description" : "Bundler. It is better for you to not know what it is.",
-    "version" : "0.8",
+    "version" : "0.8.0",
     "homepage" : "https://github.com/mihaild/ybundler",
     "author" : {
         "name": "Mikhail Dektyarev",
