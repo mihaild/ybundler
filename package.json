@@ -1,7 +1,7 @@
 {
-    "name" : "bundler",
-    "description" : "Bundler. It is better for you to not know what it is.",
-    "version" : "0.8.0",
+    "name" : "ybundler",
+    "description" : "YBundler. It is better for you to not know what it is.",
+    "version" : "0.8.1",
     "homepage" : "https://github.com/mihaild/ybundler",
     "author" : {
         "name": "Mikhail Dektyarev",
@@ -11,10 +11,10 @@
     "maintainers" : [
     ],
     "directories" : { "lib" : "./lib", "bin": "./bin" },
-    "main" : "./lib/bundler.js",
-    "bin" : { "bundler" : "./bin/bundler" },
+    "main" : "./lib/ybundler.js",
+    "bin" : { "ybundler" : "./bin/ybundler" },
     "dependencies" : {
-        "coa": ">= 0.1.1"
+        "coa": "~ 0.3.1"
     },
     "devDependencies" : {
         "vows": ">= 0.0.0"
